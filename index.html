@@ -3,17 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <h2 class="logo">Timo<span>f</span>ey.</h2>
+      <h2 class="logo fw-bold">Timo<span>f</span>ey.</h2>
       <nav class="navigation">
         <a href="">Home</a>
         <a href="">About</a>
@@ -26,8 +37,7 @@
 
     <section class="home">
       <div class="content">
-
-        <h2>Hi, I'm <span>Timofey Yakushin</span></h2>
+        <h2 class="fw-bold">Hi, I'm <span>Timofey Yakushin</span></h2>
         <h4>Frontend Dev</h4>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam saepe
@@ -35,14 +45,61 @@
           adipisci asperiores.
         </p>
         <div class="btn-group">
-            <a href="">Hire Me</a>
-            <a href="">See Projects</a>
-            
+          <a href="">Hire Me</a>
+          <a href="">See Projects</a>
         </div>
         <div class="social-icons">
           <a href="#"><i class="fa-brands fa-github"></i></a>
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
           <a href=""><i class="fa-brands fa-telegram"></i></a>
+        </div>
+      </div>
+    </section>
+    <section class="skills-section fw-medium">
+      <h4 class="fw-bold d-flex justify-content-center">My Skills</h4>
+      <br />
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="firstskills col-lg-4 mx-2 my-4">
+            <div class="d-flex align-items-center">
+              <p>1. HTML & CSS</p>
+              <img class="ms-2" src="images/icons8-html-5-96.png" alt="" />
+              <img class="ms-2" src="images/icons8-css-96.png" alt="" />
+            </div>
+            <div class="d-flex align-items-center">
+              <p>2. Bootstrap</p>
+              <img class="ms-2" src="images/icons8-bootstrap-96.png" alt="" />
+            </div>
+            <div class="d-flex align-items-center">
+              <p>3. JavaScript</p>
+              <img class="ms-2" src="images/icons8-javascript-96.png" alt="" />
+            </div>
+
+            <div class="d-flex align-items-center">
+              <p>4. React</p>
+              <img class="ms-2" src="images/icons8-react-80.png" alt="" />
+            </div>
+          </div>
+
+          <div class="secondskills col-lg-4 mx-2 my-4">
+            <div class="d-flex align-items-center">
+              <p>5. NodeJS & Express</p>
+              <img class="ms-2" src="images/icons8-nodejs-96.png" alt="" />
+            </div>
+            <div class="d-flex align-items-center">
+              <p>6. Git & GitHub</p>
+              <img class="ms-2" src="images/icons8-git-100.png" alt="" />
+            </div>
+            <div class="d-flex align-items-center">
+              <p>7. Databases</p>
+              <img class="ms-2" src="images/icons8-mysql-96.png" alt="" />
+              <img class="ms-2" src="images/icons8-mongo-db-96.png" alt="" />
+            </div>
+            <div class="d-flex align-items-center">
+              <p>8. Figma</p>
+              <img class="ms-2" src="images/icons8-figma-100.png" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
