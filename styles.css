@@ -75,8 +75,13 @@ header {
     padding: 30px 100px;
 }
 
+.home img {
+    width: 500px;
+    border: 2px dashed #7d2ae8;
+    box-shadow: 100px;
+}
+
 .content {
-    max-width: 500px;
     color: #555;
 }
 
@@ -166,10 +171,79 @@ header {
     border-bottom: 0.5px dotted #555;
     color: #555;
     font-size: 1.3rem;
+    transition: .3s;
+}
+
+.skills-section p:hover {
+    transform: translateY(-5px);
+}
+
+.skills-section img:hover {
+    transform: translateY(-5px);
 }
 
 .skills-section h4 {
     color:#7d2ae8;
     font-size: 2rem;
     padding-top: 20px;
+}
+
+.skills-section span {
+    color:#555;
+}
+
+.projects-section {
+    padding-bottom: 30px;
+    border-bottom: 0.5px dotted #555;
+}
+.projects-section h4 {
+    color:#7d2ae8;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.projects-section span {
+    color:#555;
+}
+
+.projects-section img {
+    width: 600px;
+    height: 300px;
+}
+
+.project-images {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.project-images img {
+    margin-left: 20px;
+    box-shadow: 2px 5px 5px grey;
+    transition: .3s;
+}
+
+.project-images img:hover {
+    transform: translateY(-5px);
+}
+
+.project-images img:nth-child(1):hover {
+    filter: brightness(70%);
+}
+
+.project-images img:nth-child(2):hover {
+    filter: brightness(70%);
+}
+
+.project-images img:nth-child(3):hover {
+    filter: brightness(70%);
+}
+
+.contact-submit h4 {
+    color:#7d2ae8;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.contact-submit span {
+    color:#555;
 }

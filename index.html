@@ -37,26 +37,40 @@
 
     <section class="home">
       <div class="content">
-        <h2 class="fw-bold">Hi, I'm <span>Timofey Yakushin</span></h2>
-        <h4>Frontend Dev</h4>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam saepe
-          fugit incidunt quas laudantium. Mollitia repudiandae velit blanditiis
-          adipisci asperiores.
-        </p>
-        <div class="btn-group">
-          <a href="">Hire Me</a>
-          <a href="">See Projects</a>
-        </div>
-        <div class="social-icons">
-          <a href="#"><i class="fa-brands fa-github"></i></a>
-          <a href=""><i class="fa-brands fa-linkedin"></i></a>
-          <a href=""><i class="fa-brands fa-telegram"></i></a>
+        <div class="row align-items-center space-between">
+          <h2 class="fw-bold">Hi, I'm <span>Timofey Yakushin</span></h2>
+          <div class="col-md-6">
+            <h4>Frontend Dev</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+              saepe fugit incidunt quas laudantium. Mollitia repudiandae velit
+              blanditiis adipisci asperiores.
+            </p>
+
+            <div class="btn-group">
+              <a href="">Hire Me</a>
+              <a href="">See Projects</a>
+            </div>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-telegram"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center">
+            <img
+              class="rounded-circle shadow p-3 mb-5 bg-body-tertiary rounded"
+              src="images/urahara.jpg"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </section>
     <section class="skills-section fw-medium">
-      <h4 class="fw-bold d-flex justify-content-center">My Skills</h4>
+      <h4 class="fw-bold d-flex justify-content-center">
+        <span>My </span>Skills.
+      </h4>
       <br />
       <div class="container">
         <div class="row justify-content-between">
@@ -91,7 +105,7 @@
               <img class="ms-2" src="images/icons8-git-100.png" alt="" />
             </div>
             <div class="d-flex align-items-center">
-              <p>7. Databases</p>
+              <p>7. MySQL & Mongo</p>
               <img class="ms-2" src="images/icons8-mysql-96.png" alt="" />
               <img class="ms-2" src="images/icons8-mongo-db-96.png" alt="" />
             </div>
@@ -103,5 +117,27 @@
         </div>
       </div>
     </section>
+    <section class="projects-section">
+      <h4 class="fw-bold d-flex justify-content-center mb-5">
+        <span>My</span> Projects.
+      </h4>
+      <div class="project-images">
+        <img src="projects/portfolio.png" alt="">
+        <img src="projects/lolipop.png" alt="">
+        <img src="projects/scorekeeper.png" alt="">
+      </div>
+    </section>
+    <section class="contact-submit">
+      <h4 class="fw-bold d-flex justify-content-center mb-5">
+        Contact<span>Me.</span>
+      </h4>
+    <form action="">
+      <div class="">
+      <input type="text" placeholder="Enter your name...">
+      <input type="text" placeholder="Enter your email..." id="">
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    </div>
+    </form>
+  </section>
   </body>
 </html>
