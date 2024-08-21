@@ -21,6 +21,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
   </head>
   <body>
     <header>
@@ -122,22 +123,55 @@
         <span>My</span> Projects.
       </h4>
       <div class="project-images">
-        <img src="projects/portfolio.png" alt="">
-        <img src="projects/lolipop.png" alt="">
-        <img src="projects/scorekeeper.png" alt="">
+        <img src="projects/portfolio.png" alt="" />
+        <img src="projects/lolipop.png" alt="" />
+        <img src="projects/scorekeeper.png" alt="" />
       </div>
     </section>
-    <section class="contact-submit">
+    <section class="contact-section">
       <h4 class="fw-bold d-flex justify-content-center mb-5">
         Contact<span>Me.</span>
       </h4>
-    <form action="">
-      <div class="">
-      <input type="text" placeholder="Enter your name...">
-      <input type="text" placeholder="Enter your email..." id="">
-      <textarea name="" id="" cols="30" rows="10"></textarea>
-    </div>
-    </form>
-  </section>
+      <div class="contact-container container grid">
+        <div class="contact-content">
+          <form action="" class="contact-form">
+            <div class="contact-form-group">
+              <div class="contact-form-div">
+                <label for="" class="contact-form-tag">Name</label>
+                <input
+                  type="text"
+                  class="contact-form-input"
+                  placeholder="Enter your name..."
+                />
+              </div>
+              <div class="contact-form-div">
+                <label for="" class="contact-form-tag">Mail</label>
+                <input
+                  type="email"
+                  class="contact-form-input"
+                  placeholder="Enter your email..."
+                />
+              </div>
+
+              <div class="contact-form-div contact-form-area">
+                <label for="" class="contact-form-tag">Message</label>
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="contact-form-input"
+                  placeholder="Your message..."
+                ></textarea>
+              </div>
+            </div>
+            <div class="button-div d-flex justify-content-center">
+              <button type="submit" class="button">Send Message</button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
