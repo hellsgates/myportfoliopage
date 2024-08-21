@@ -228,6 +228,7 @@ header {
     transform: translateY(-5px);
 }
 
+
 .project-images img:nth-child(1):hover {
     filter: brightness(70%);
 }
@@ -318,4 +319,17 @@ header {
 .button-div {
     margin-top: 100px;
     margin-bottom: 30px;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1.2s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }
